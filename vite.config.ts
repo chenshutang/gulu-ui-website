@@ -5,6 +5,7 @@ import fs from 'fs'
 import {baseParse} from '@vue/compiler-core'
 console.log(md)
 export default {
+  assetsDir:'assets',
   base: "./",
   plugins: [md()],
   vueCustomBlockTransforms: {
